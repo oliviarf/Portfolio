@@ -1,0 +1,58 @@
+body {
+    background-color: #D9C4FF;
+}
+
+#text {
+    font-family: "Roboto Thin", Arial, sans-serif;
+    margin: 40px auto auto;
+    width: 65%;
+    text-align: center;
+    color: #646464;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+#video {
+    width: 40%;
+    margin: 50px auto auto;
+}
+
+iframe {
+    width: 100%;
+}
+
+#leftLink {
+    position: absolute;
+    left: 25px;
+    bottom: 5px;
+    margin-top: 15px;
+}
+
+#rightLink {
+    position: absolute;
+    right: 25px;
+    bottom: 5px;
+    margin-top: 15px;
+}
+
+#links {
+    margin-top: 80px;
+    position: relative;
+}
+
+@media screen and (max-width: 475px){
+    #text {
+        width: 80%;
+    }
+
+    #video {
+        width: 90%;
+    }
+
+}

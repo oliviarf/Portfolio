@@ -1,0 +1,58 @@
+h1 {
+    font-family: "Roboto Thin", "Roboto Light", sans-serif;
+    font-size: 28px;
+    color: #646464;
+}
+
+p {
+    font-family: "Roboto Thin", "Roboto Light", sans-serif;
+    font-size: 20px;
+    color: #646464;
+}
+
+#aboutContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 2%;
+}
+
+#text {
+    margin-right: 50px;
+}
+
+#topPhoto {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    opacity: 90%
+}
+
+@media screen and (max-width: 475px){
+    #aboutContainer {
+        flex-direction: column;
+        justify-content: center;
+        width: 392px;
+        margin: 2% auto auto;
+        text-align: center;
+    }
+
+    #text {
+        margin: 0;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    #topPhoto {
+        margin: 15px auto auto;
+        width: 300px;
+        height: 300px;
+    }
+}
+

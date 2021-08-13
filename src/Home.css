@@ -1,0 +1,132 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #D9C4FF;
+    height: 100%;
+    background-image: url("PortfolioFooter.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.image {
+    opacity: 80%;
+}
+
+a {
+    color: dimgrey;
+    font-family: "Roboto Thin", Arial, sans-serif;
+    font-size: 24px;
+}
+
+.overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 375px;
+    width: 450px;
+    opacity: 60%;
+    transition: .5s ease;
+    background-color: whitesmoke;
+}
+
+button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: #EAE1FF;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+#rightArrow {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+}
+
+#leftArrow {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%);
+}
+
+#intro {
+    font-family: "Roboto Thin", sans-serif;
+    color: dimgrey;
+    padding: 30px;
+    margin-right: 20px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    margin: 5% auto;
+    text-align: center;
+    width: 80%;
+}
+
+#slideshow {
+    position: relative;
+}
+
+.text {
+    color: #000000;
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#footer {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+@media screen and (max-width: 475px){
+    #container {
+        flex-direction: column;
+        width: 350px;
+        margin: auto;
+    }
+
+    body {
+        background-size: 100% 25%;
+    }
+
+    #intro {
+        margin-right: 0;
+    }
+
+    .image {
+        width: 340px;
+        height: 270px;
+    }
+
+    .overlay {
+        width: 340px;
+        height: 270px;
+        left: 5px;
+    }
+}

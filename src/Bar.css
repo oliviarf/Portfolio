@@ -1,0 +1,70 @@
+a {
+    color: dimgrey;
+    font-family: "Roboto Thin", Arial, sans-serif;
+    font-size: 24px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#navbar {
+    width: 100%;
+}
+
+#mailLink {
+    margin-right: 40px;
+    opacity: 70%;
+    margin-top: 4px;
+}
+
+#profileLink {
+    margin-right: 40px;
+    opacity: 65%;
+}
+
+#homeLink, #aboutLink{
+    margin-left: 40px;
+}
+
+#nameTitle {
+    color: dimgrey;
+    font-family: "Roboto Thin", Arial, sans-serif;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 475px) {
+    #nameTitle {
+        font-size: 24px;
+    }
+
+    #mailLink {
+        margin-right: 10px;
+        width: 25px;
+        height: 32px;
+        margin-top: 3px;
+    }
+
+    #profileLink {
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    #homeLink {
+        margin-left: 10px;
+    }
+
+    #aboutLink {
+        margin-left: 10px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    #links {
+        margin-top: 21px;
+    }
+
+}

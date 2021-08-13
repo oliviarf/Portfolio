@@ -1,0 +1,85 @@
+body {
+    background-color: #D9C4FF;
+    text-align: center;
+}
+
+#text {
+    font-family: "Roboto Thin", Arial, sans-serif;
+    margin: 40px auto auto;
+    width: 65%;
+    text-align: center;
+    color: #646464;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-family: "Roboto Thin", Arial, sans-serif;
+    color: #646464;
+}
+
+.screenshotsDiv {
+    width: 70%;
+    margin: 30px auto 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.rightScreenshot {
+    margin-right: 50px;
+}
+
+#leftLink {
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+    margin-top: 15px;
+}
+
+#rightLink {
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+    margin-top: 15px;
+}
+
+#links {
+    margin-top: 80px;
+    position: relative;
+}
+
+@media screen and (max-width: 475px){
+    #text {
+        width: 80%;
+    }
+
+    .screenshotsDiv {
+        width: 380px;
+        flex-direction: column;
+    }
+
+    #screenshot1, #screenshot2, #screenshot3, #screenshot4  {
+        width: 375px;
+        height: 670px;
+        margin: auto;
+
+    }
+
+    .rightScreenshot {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    #screenshot5, #screenshot6 {
+        width: 365px;
+        height: 295px;
+    }
+
+}

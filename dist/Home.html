@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Olivia Rose</title>
+        <link href="../src/Home.css" rel="stylesheet" type="text/css"/>
+        <link href="../src/Bar.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <div id="navbar"></div>
+        <script src="../src/NavBar.js" type="text/babel"></script>
+        <div id="container">
+            <h1 id="intro">
+                Nice to meet you!<br>
+                <br>
+                I'm Olivia and I love frontend development.<br>
+                <br>
+                You can check out my projects here.
+            </h1>
+            <div id="slideshow">
+                <div id="slide1" class="slide">
+                    <a href="DeskBuddy.html">
+                        <img class="image" id="DBImage" src="images/Slider%205.png" width="450" height="375">
+                        <div class="overlay" id="DBOverlay">
+                            <div class="text">Desk Buddy</div>
+                        </div>
+                    </a>
+                </div>
+                <div id="slide2" class="slide">
+                    <a href="EVApp.html">
+                        <img class="image" id="EVImage" src="images/Slider%204.png" width="450" height="375">
+                        <div class="overlay" id="EVOverlay">
+                            <div class="text">EV App</div>
+                        </div>
+                    </a>
+                </div>
+                <div id="slide3" class="slide">
+                    <a href="Map.html">
+                        <img class="image" id="MapImage" src="images/Slider%203.png" width="450" height="375">
+                        <div class="overlay" id="MapOverlay">
+                            <div class="text">Electrolyzer Map</div>
+                        </div>
+                    </a>
+                </div>
+                <div id="slide4" class="slide">
+                    <a href="AMixForYou.html">
+                        <img class="image" id="MixImage" src="images/Slider%201.png" width="450" height="375">
+                        <div class="overlay" id="MixOverlay">
+                            <div class="text">A Mix For You</div>
+                        </div>
+                    </a>
+                </div>
+                <div id="slide5" class="slide">
+                    <a href="MindfulShopper.html">
+                        <img class="image" id="ShopImage" src="images/Slider%202.png" width="450" height="375">
+                        <div class="overlay" id="ShopOverlay">
+                            <div class="text">The Mindful Shopper</div>
+                        </div>
+                    </a>
+                </div>
+
+                <button id="leftArrow" onclick="updateImage(-1)">&#10094;</button>
+                <button id="rightArrow" onclick="updateImage(1)">&#10095;</button>
+            </div>
+        </div>
+        <script src="../src/Home.js"></script>
+<!--        <img id="footer" src="images/PortfolioFooter.jpg"/>-->
+    </body>
+</html>

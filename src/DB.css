@@ -1,0 +1,92 @@
+body {
+    background-color: #D9C4FF;
+}
+
+#text {
+    font-family: "Roboto Thin", Arial, sans-serif;
+    margin: 40px auto auto;
+    width: 65%;
+    text-align: center;
+    color: #646464;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    color: #646464;
+    font-family: "Roboto Thin", Arial, sans-serif;
+    margin-top: 25px;
+}
+
+.screenshotsDiv {
+    width: 90%;
+    margin: 50px auto auto;
+    text-align: center;
+}
+
+#screenshot1 {
+    margin-right: 50px;
+}
+
+#screenshot3 {
+    margin-bottom: 50px;
+}
+
+#leftLink {
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+    margin-top: 15px;
+}
+
+#rightLink {
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+    margin-top: 15px;
+}
+
+#links {
+    margin-top: 80px;
+    position: relative;
+}
+
+@media screen and (max-width: 475px){
+    #text {
+        width: 80%;
+    }
+
+    .screenshotsDiv {
+        width: 425px;
+    }
+
+    #screenshot1 {
+        width: 423px;
+        height: 287px;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    #screenshot2 {
+        width: 423px;
+        height: 287px;
+    }
+
+    #screenshot3 {
+        width: 412px;
+        height: 245px;
+        margin-bottom: 40px;
+    }
+
+    #screenshot4 {
+        width: 420px;
+        height: 135px;
+    }
+
+}

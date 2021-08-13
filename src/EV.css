@@ -1,0 +1,64 @@
+body {
+    background-color: #D9C4FF;
+}
+
+#text {
+    font-family: "Roboto Light", Arial, sans-serif;
+    margin: 40px auto auto;
+    width: 75%;
+    text-align: center;
+    color: dimgrey;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+#photos {
+    margin: 50px auto auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#leftLink {
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+    margin-top: 15px;
+}
+
+#rightLink {
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+    margin-top: 15px;
+}
+
+#links {
+    margin-top: 80px;
+    position: relative;
+}
+
+@media screen and (max-width: 475px){
+    #text {
+        width: 80%;
+    }
+
+    #photos {
+        flex-direction: column;
+        width: 330px;
+        margin: 20px auto auto;
+    }
+
+    .screenshot {
+        margin-bottom: 40px;
+        width: 325px;
+        height: 515px;
+    }
+}

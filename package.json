@@ -1,0 +1,33 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "sourceType": "modulenpm install --save-dev babel-preset-react",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-2"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "browserify": "^17.0.0",
+    "react-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^10.0.0",
+    "esmify": "^2.1.1"
+  }
+}
